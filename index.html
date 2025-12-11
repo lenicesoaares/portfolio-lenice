@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Lenice Pereira</title>
+    <link rel="icon" type="image/png" href="img/favicon/logo.png">
+    <link rel="apple-touch-icon" href="img/favicon/logo.png">
+    <link rel="shortcut icon" href="img/favicon/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Port<span>fólio</span></a>
+            <div class="mobile-menu">☰</div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio" data-i18n="inicio">Início</a></li>
+                    <li><a href="#projetos" data-i18n="projetos">Projetos</a></li>
+                    <li><a href="#habilidades" data-i18n="habilidades">Habilidades</a></li>
+                    <li><a href="#sobre" data-i18n="sobre">Sobre Mim</a></li>
+                    <li><a href="#experiencia" data-i18n="experiencia">Experiência</a></li>
+                    <li><a href="#contato" data-i18n="contato">Contacto</a></li>
+                    <li class="lang-switcher">
+                        <button class="lang-btn active" data-lang="pt">PT</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 data-i18n="hero-title">Lenice Pereira</h1>
+                <p data-i18n="hero-tagline">Desenvolvedora Web Full Stack</p>
+                <p data-i18n="hero-description">Transformo ideias em soluções digitais funcionais através de código limpo, design responsivo e tecnologias modernas.</p>
+                <div class="hero-btns">
+                    <a href="#projetos" class="btn" data-i18n="ver-projetos">Ver Projetos</a>
+                    <a href="#contato" class="btn btn-secondary" data-i18n="fale-comigo">Fale Comigo</a>
+                </div>
+                <div class="specialization">
+                    <h3 data-i18n="especializacao">Especialização</h3>
+                    <p data-i18n="tecnologias">Desenvolvimento Web - Full Stack</p>
+                    <p data-i18n="localizacao">Localização</p>
+                    <strong data-i18n="portugal">Portugal</strong>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/perfil.jpeg" alt="Lenice Pereira">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos em Destaque -->
+    <section id="projetos" class="projects">
+        <div class="container">
+            <h2 data-i18n="meus-projetos">Meus Projetos em Destaque</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img class="project-image" src="img/projetos/GestorFinanceiroo.png" alt="Gestor Financeiro">
+                    <div class="project-content">
+                        <h3 data-i18n="gestor-financeiro"></h3>
+                        <p data-i18n="gestor-desc"></p>
+                        <div class="project-tags">
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>Twilio API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="img/projetos/GameLab.png" alt="Game Lab">
+                    <div class="project-content">
+                        <h3 data-i18n="game-lab"></h3>
+                        <p data-i18n="game-desc"></p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="img/projetos/HemoVida.png" alt="HemoVida">
+                    <div class="project-content">
+                        <h3 data-i18n="hemovida"></h3>
+                        <p data-i18n="hemovida-desc"></p>
+                        <div class="project-tags">
+                            <span>PHP</span>
+                            <span>Laravel</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+<div class="project-card">
+    <img class="project-image" src="img/projetos/task.png" alt="TaskFlow">
+    <div class="project-content">
+        <h3 data-i18n="taskflow"></h3>
+        <p data-i18n="taskflow-desc"></p>
+        <div class="project-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Local Storage</span>
+        </div>
+        
+    </div>
+</div>
+
+<div class="project-card">
+    <img class="project-image" src="img/projetos/weather.png" alt="Weather App">
+    <div class="project-content">
+        <h3 data-i18n="weather-app"></h3>
+        <p data-i18n="weather-desc"></p>
+        <div class="project-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>API</span>
+        </div>
+        
+    </div>
+</div>
+
+<div class="project-card">
+    <img class="project-image" src="img/projetos/studify.png" alt="Studify">
+    <div class="project-content">
+        <h3 data-i18n="studify"></h3>
+        <p data-i18n="studify-desc"></p>
+        <div class="project-tags">
+            <span>Laravel (PHP)</span>
+            <span>Bootstrap 5</span>
+            <span>MySQL</span>
+        </div>
+        
+    </div>
+</div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="https://github.com/lenicesoaares" target="_blank" class="btn" data-i18n="ver-mais">Ver Mais no GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades Técnicas -->
+    <section id="habilidades" class="tools">
+        <div class="container">
+            <h2 data-i18n="habilidades-title">Habilidades Técnicas</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-abbreviation">FE</div>
+                    <div class="tool-info">
+                        <h3>Front-End</h3>
+                        <p>HTML5, CSS3, JavaScript, Bootstrap</p>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-abbreviation">BE</div>
+                    <div class="tool-info">
+                        <h3>Back-End</h3>
+                        <p>PHP, Laravel, MySQL, APIs RESTful</p>
+                    </div>
+                </div>
+            
+                <div class="tool-card">
+                    <div class="tool-abbreviation">Git</div>
+                    <div class="tool-info">
+                        <h3>Git & GitHub</h3>
+                        <p>Controle de versão e colaboração</p>
+                    </div>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-abbreviation">BD</div>
+                    <div class="tool-info">
+                        <h3>Banco de Dados</h3>
+                        <p>MySQL, Design de esquemas</p>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-abbreviation">API</div>
+                    <div class="tool-info">
+                        <h3>APIs</h3>
+                        <p>Twilio, Dialogflow, Integração</p>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-abbreviation">Agile</div>
+                    <div class="tool-info">
+                        <h3>Metodologias Ágeis</h3>
+                        <p>Scrum, Trello, Jira</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2 data-i18n="sobre-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="sobre-text1"></p>
+                    <p data-i18n="sobre-text2"></p>
+                    <p data-i18n="sobre-text3"></p>
+                    <a href="#contato" class="btn" data-i18n="entre-contato">Entre em Contacto</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Desenvolvimento Web">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiência Profissional -->
+    <section id="experiencia" class="services">
+        <div class="container">
+            <h2 data-i18n="experiencia-title"></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3 class="service-main-title" data-i18n="dev-junior"></h3>
+                    <div class="service-subtitles">
+                        <span class="service-subtitle">Scorpion Circle</span>
+                        <span class="service-subtitle">Jul-Out 2025</span>
+                    </div>
+                    <p class="service-description">Desenvolvimento Front-End com Bootstrap, CSS, HTML e JS. Implementação de endpoints RESTful. Criação de módulos para upload de arquivos e análise de consumos de energia. Testes e controle de qualidade.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="service-main-title" data-i18n="atendimento-senior"></h3>
+                    <div class="service-subtitles">
+                        <span class="service-subtitle">Agência UM</span>
+                        <span class="service-subtitle">2021-2022</span>
+                    </div>
+                    <p class="service-description">Definição de prioridades e pautas. Integração entre departamentos. Apresentação de planejamentos estratégicos. Reuniões de alinhamento com clientes. Supervisão de demandas internas.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="service-main-title" data-i18n="analista-negocios"></h3>
+                    <div class="service-subtitles">
+                        <span class="service-subtitle">Ampla Comunicação</span>
+                        <span class="service-subtitle">2019-2021</span>
+                    </div>
+                    <p class="service-description">Atendimento Publicitário. Fluxo e organização de pauta. Elaboração de briefings. Acompanhamento e análise de projetos. Gestão de relacionamento com clientes.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="service-main-title" data-i18n="formacao-academica"></h3>
+                    <div class="service-subtitles">
+                        <span class="service-subtitle">Tecnologias e Programação</span>
+                        <span class="service-subtitle">2024-2025</span>
+                    </div>
+                    <p class="service-description">Nível 5 - Instituto do Emprego e Formação Profissional. Especialização em desenvolvimento web full stack, banco de dados, e programação orientada a objetos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 data-i18n="contato-title">Entre em Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-intro">
+                    <p data-i18n="contato-intro"></p>
+                </div>
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4 data-i18n="email"></h4>
+                            <p>contatolenicesoares@gmail.com</p>
+                            <a href="mailto:contatolenicesoares@gmail.com" class="contact-link" data-i18n="enviar-email"></a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4 data-i18n="telefone"></h4>
+                            <p>+351 915 622 032</p>
+                            <a href="tel:+351915622032" class="contact-link" data-i18n="ligar-agora"></a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4 data-i18n="localizacao"></h4>
+                            <p>Leiria, Portugal</p>
+                            <span class="contact-link" data-i18n="disponivel"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-contact">
+                    <p data-i18n="conecte-redes"></p>
+                    <div class="social-links-contact">
+                        <a href="https://www.linkedin.com/in/lenicesoaares/" target="_blank" class="social-link-contact">
+                            <span>in</span>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/lenicesoaares" target="_blank" class="social-link-contact">
+                            <span>Git</span>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">Lenice<span>Pereira</span></div>
+                
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Lenice Pereira. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
