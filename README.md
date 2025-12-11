@@ -41,26 +41,6 @@ Acesse o portfólio online: [https://lenicesoaares.github.io/portfolio-lenice/](
 - GitHub Pages - Hospedagem gratuita
 - Font Awesome - Ícones sociais
 
-## 📁 Estrutura do Projeto
-
-\`\`\`
-portfolio-lenice/
-├── index.html              # Página principal
-├── style.css              # Estilos principais
-├── script.js              # Lógica JavaScript
-├── img/                   # Diretório de imagens
-│   ├── perfil.jpeg       # Foto de perfil
-│   ├── favicon/          # Ícones do site
-│   └── projetos/         # Screenshots dos projetos
-│       ├── gamelab.png
-│       ├── hemovida.png
-│       ├── gestorfinanceiroo.png
-│       ├── studify.png
-│       ├── weather.png
-│       └── task.png
-└── README.md             # Este arquivo
-\`\`\`
-
 ## 🎯 Seções do Portfólio
 
 ### 1. Hero Section
@@ -104,25 +84,6 @@ portfolio-lenice/
 - Localização: Leiria, Portugal
 - LinkedIn e GitHub
 
-## 🚀 Como Executar Localmente
-
-Clone o repositório:
-
-\`\`\`bash
-git clone https://github.com/lenicesoaares/portfolio-lenice.git
-cd portfolio-lenice
-\`\`\`
-
-Abra o arquivo principal:
-
-Abra \`index.html\` no seu navegador
-Ou use um servidor local (Live Server no VSCode )
-
-Para desenvolvimento:
-
-- Edite os arquivos HTML/CSS/JS conforme necessário
-- Teste em diferentes dispositivos
-
 ## 🌍 Sistema de Tradução
 
 O portfólio possui suporte nativo para dois idiomas:
@@ -132,12 +93,6 @@ Funcionamento:
 - Armazenamento: \`localStorage\` para manter a preferência do usuário
 - Troca: Botões PT/EN no cabeçalho
 - Conteúdo: Todas as seções são traduzidas dinamicamente
-
-Adicionar novo idioma:
-
-- Edite o objeto \`translations\` em \`script.js\`
-- Adicione as traduções para o novo idioma
-- Adicione botão no HTML
 
 ## 📄 Licença
 
