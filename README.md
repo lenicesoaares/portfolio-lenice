@@ -79,8 +79,7 @@ Acesse o portfólio online: [https://lenicesoaares.github.io/portfolio-lenice/](
 
 ### 6. Contato
 
-- Email: contatolenicesoares@gmail.com
-- Telefone: +351 915 622 032
+- Email: dev.lenicepereira@gmail.com
 - Localização: Leiria, Portugal
 - LinkedIn e GitHub
 
@@ -102,7 +101,7 @@ Este projeto está sob a [licença MIT](LICENSE). Veja o arquivo \`LICENSE\` par
 
 **Lenice Pereira - Desenvolvedora Full Stack**
 
-- Email: contatolenicesoares@gmail.com
+- Email: dev.lenicepereira@gmail.com
 - LinkedIn: [linkedin.com/in/lenicesoaares](https://linkedin.com/in/lenicesoaares )
 - GitHub: [github.com/lenicesoaares](https://github.com/lenicesoaares )
 - Portfólio: [lenicesoaares.github.io/portfolio-lenice](https://lenicesoaares.github.io/portfolio-lenice )
